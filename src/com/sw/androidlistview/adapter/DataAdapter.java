@@ -71,7 +71,7 @@ public class DataAdapter extends BaseAdapter implements android.view.View.OnClic
 			tv2 = (ImageView) v1.findViewById(R.id.plun);
 			tv1.setOnClickListener(this);
 			tv2.setOnClickListener(this);
-			pop = new PopupWindow(v1, 200, 200,true);
+			pop = new PopupWindow(v1, 200, 10,true);
 			pop.setBackgroundDrawable(new BitmapDrawable());
 			holder.iv_dji.setOnClickListener(this); 	
 				
